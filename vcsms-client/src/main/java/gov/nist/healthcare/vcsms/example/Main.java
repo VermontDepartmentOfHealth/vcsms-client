@@ -18,7 +18,7 @@ public class Main {
 
 		// get config values
 		Properties prop = new Properties();
-		FileInputStream ip = new FileInputStream("src/main/java/gov/nist/healthcare/vcsms/example/config.properties");
+		FileInputStream ip = new FileInputStream("vcsms-client/src/main/java/gov/nist/healthcare/vcsms/example/config.properties");
 		prop.load(ip);
 
 		
