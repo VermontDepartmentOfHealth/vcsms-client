@@ -52,9 +52,11 @@ vcsms-client/
 
 ### Config Section
 
-Create the file `config.properties` in the following directory `src/main/java/gov/nist/healthcare/vcsms/example/` and set the values to the ones you've been provided
+1. **Create the file `config.properties`** in the following directory `src/main/java/gov/nist/healthcare/vcsms/example/` (it contains secrets so it is excluded via the `.gitignore)
+2. **Copy and Paste** the code block below into the file and update the values with the ones you've been provided (You should have been provided values for each of the keys, but please contact your point of contact or CDC VCSMS Support Email: [iisinfo@cdc.gov](mailto:iisinfo@cdc.gov) for more info):
 
-```
+
+```properties
 ROOT_PATH = vaccinecodeset.cdc.gov/SymedicalDistributionREST/api/distributionext/
 ROOT_PATH_CCA = vaccinecodeset.cdc.gov/SymedicalDistributionREST
 GROUP_MNEMONIC = ****
@@ -69,18 +71,17 @@ DOWNLOAD_LOCATION = ****
 RESOURCE_ID = ****
 ```
 
-You should have been provided values for each of the keys, but please contact your point of contact or CDC VCSMS Support Email: [iisinfo@cdc.gov](mailto:iisinfo@cdc.gov) for more info.
 
 ## Acronyms
 
-**VCSMS** - Vaccine Code Set Management Services
-**NIST** - National Institute of Standards and Technology
-**CDC** - Centers for Disease Control and Prevention
-**JDK** - Java Development Kit
-**JVM** - Java Virtual Machine
-**API** - Application Programming Interface
-**REST** - Representational State Transfer
-**FTP** - File Tranfer Protocol
+* **VCSMS** - Vaccine Code Set Management Services
+* **NIST** - National Institute of Standards and Technology
+* **CDC** - Centers for Disease Control and Prevention
+* **JDK** - Java Development Kit
+* **JVM** - Java Virtual Machine
+* **API** - Application Programming Interface
+* **REST** - Representational State Transfer
+* **FTP** - File Tranfer Protocol
 
 
 ## Additional Resources
